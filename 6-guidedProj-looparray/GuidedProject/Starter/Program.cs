@@ -12,6 +12,9 @@ string[] studentNames = new string[] {"Sophia", "Andrew", "Emma", "Logan"};
 
 int[] studentScores = new int[10];
 
+//assign a grade
+string currentStudentLetterGrade = "";
+
 //Write report header to console
 Console.WriteLine("Student\t\tGrade\n");
 
@@ -20,10 +23,13 @@ foreach (string name in studentNames){
     string currentName = name;
     if (currentName == "Sophia")
         studentScores = sophiaScores;
+
     else if (currentName == "Andrew")
         studentScores = andrewScores;
+
     else if (currentName == "Emma")
         studentScores = emmaScores;
+
     else if (currentName == "Logan")
         studentScores = loganScores;
     
@@ -39,10 +45,50 @@ foreach (string name in studentNames){
     }
 
     currentStudentGrade = (decimal)(sumAssignmentScores)/currentAssignments;
-    Console.WriteLine($"{currentName}\t\t{currentStudentGrade}\t?");
+    
+    //determine grade value
+    if (currentStudentGrade >= 97)
+        currentStudentLetterGrade = "A+";
+
+    else if (currentStudentGrade >= 93)
+        currentStudentLetterGrade = "A";
+
+    else if (currentStudentGrade >= 90)
+        currentStudentLetterGrade = "A-";
+
+    else if (currentStudentGrade >= 87)
+        currentStudentLetterGrade = "B+";
+
+    else if (currentStudentGrade >= 83)
+        currentStudentLetterGrade = "B";
+
+    else if (currentStudentGrade >= 80)
+        currentStudentLetterGrade = "B-";
+
+    else if (currentStudentGrade >= 77)
+        currentStudentLetterGrade = "C+";
+
+    else if (currentStudentGrade >= 73)
+        currentStudentLetterGrade = "C";
+
+    else if (currentStudentGrade >= 70)
+        currentStudentLetterGrade = "C-";
+
+    else if (currentStudentGrade >= 67)
+        currentStudentLetterGrade = "D+";
+
+    else if (currentStudentGrade >= 63)
+        currentStudentLetterGrade = "D";
+
+    else if (currentStudentGrade >= 60)
+        currentStudentLetterGrade = "D-";
+
+    else
+        currentStudentLetterGrade = "F";
+    
+    //print out results
+    Console.WriteLine($"{currentName}\t\t{currentStudentGrade}\t{currentStudentLetterGrade}");
 }
-
-
 
 
 Console.WriteLine("Press the Enter key to continue");

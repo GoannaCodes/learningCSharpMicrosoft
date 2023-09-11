@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mDREFmgdDEGlUfeHgd4lLmhMjQfLbRDXrsg+kQK31JwFWsmnYOLxCKruyxmug1dl3h6ga1UOymAIIC+mtb15Hg==",
+  "dgSpecHash": "GYhCc4K9shGCdG1fYyS1g+aiCpiNg2rKshSUelAU2/yUpy2lsuG9i8tuFxAkQxBfcfBoSgERTQPRndHZYd8ZRQ==",
   "success": true,
-  "projectFilePath": "D:\\c\\6-guidedProj-looparray\\Guided-project-foreach-if-array-CSharp-main\\GuidedProject\\Starter\\Starter.csproj",
+  "projectFilePath": "D:\\c\\6-guidedProj-looparray\\GuidedProject\\Starter\\Starter.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
