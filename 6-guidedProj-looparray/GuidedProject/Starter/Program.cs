@@ -2,10 +2,10 @@
 
 // initialize variables - graded assignments 
 int currentAssignments = 5;
-int[] sophiaScores = new int[] {90, 86, 87, 98, 100};
-int[] andrewScores = new int[] {92, 89, 81, 96, 90};
-int[] emmaScores = new int[] {90, 85, 87, 98, 68};
-int[] loganScores = new int[] {90, 95, 87, 88, 96};
+int[] sophiaScores = new int[] {90, 86, 87, 98, 100, 94, 90};
+int[] andrewScores = new int[] {92, 89, 81, 96, 90, 89};
+int[] emmaScores = new int[] {90, 85, 87, 98, 68, 89, 89, 89};
+int[] loganScores = new int[] {90, 95, 87, 88, 96, 96};
 
 //student names
 string[] studentNames = new string[] {"Sophia", "Andrew", "Emma", "Logan"};
@@ -39,9 +39,21 @@ foreach (string name in studentNames){
     //initialise/reset calculated average of exam + extra credit scores
     decimal currentStudentGrade = 0;
 
+    //initialise/reset counter for number of assignments
+    int gradedAssignments = 0;
+
+    //calculate total score for each student
     foreach(int score in studentScores){
-        //add exam score to sum
-        sumAssignmentScores += score;
+        //increment assignment counter
+        gradedAssignments += 1;
+        //keeps track of whether we reach extra credit scores
+        if (gradedAssignments <= currentAssignments)
+            //add exam score to sum
+            sumAssignmentScores += score;
+        else 
+            //add extra credit points to sum - bonus points equal to 10% of exam score
+            sumAssignmentScores += score / 10;
+        
     }
 
     currentStudentGrade = (decimal)(sumAssignmentScores)/currentAssignments;
