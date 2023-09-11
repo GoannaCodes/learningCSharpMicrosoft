@@ -1,0 +1,14 @@
+D:\c\5-nestedloop\nestedIteration\bin\Debug\net7.0\nestedIteration.exe
+D:\c\5-nestedloop\nestedIteration\bin\Debug\net7.0\nestedIteration.deps.json
+D:\c\5-nestedloop\nestedIteration\bin\Debug\net7.0\nestedIteration.runtimeconfig.json
+D:\c\5-nestedloop\nestedIteration\bin\Debug\net7.0\nestedIteration.dll
+D:\c\5-nestedloop\nestedIteration\bin\Debug\net7.0\nestedIteration.pdb
+D:\c\5-nestedloop\nestedIteration\obj\Debug\net7.0\nestedIteration.GeneratedMSBuildEditorConfig.editorconfig
+D:\c\5-nestedloop\nestedIteration\obj\Debug\net7.0\nestedIteration.AssemblyInfoInputs.cache
+D:\c\5-nestedloop\nestedIteration\obj\Debug\net7.0\nestedIteration.AssemblyInfo.cs
+D:\c\5-nestedloop\nestedIteration\obj\Debug\net7.0\nestedIteration.csproj.CoreCompileInputs.cache
+D:\c\5-nestedloop\nestedIteration\obj\Debug\net7.0\nestedIteration.dll
+D:\c\5-nestedloop\nestedIteration\obj\Debug\net7.0\refint\nestedIteration.dll
+D:\c\5-nestedloop\nestedIteration\obj\Debug\net7.0\nestedIteration.pdb
+D:\c\5-nestedloop\nestedIteration\obj\Debug\net7.0\nestedIteration.genruntimeconfig.cache
+D:\c\5-nestedloop\nestedIteration\obj\Debug\net7.0\ref\nestedIteration.dll

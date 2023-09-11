@@ -1,0 +1,14 @@
+D:\c\3-array\bin\Debug\net7.0\3-array.exe
+D:\c\3-array\bin\Debug\net7.0\3-array.deps.json
+D:\c\3-array\bin\Debug\net7.0\3-array.runtimeconfig.json
+D:\c\3-array\bin\Debug\net7.0\3-array.dll
+D:\c\3-array\bin\Debug\net7.0\3-array.pdb
+D:\c\3-array\obj\Debug\net7.0\3-array.GeneratedMSBuildEditorConfig.editorconfig
+D:\c\3-array\obj\Debug\net7.0\3-array.AssemblyInfoInputs.cache
+D:\c\3-array\obj\Debug\net7.0\3-array.AssemblyInfo.cs
+D:\c\3-array\obj\Debug\net7.0\3-array.csproj.CoreCompileInputs.cache
+D:\c\3-array\obj\Debug\net7.0\3-array.dll
+D:\c\3-array\obj\Debug\net7.0\refint\3-array.dll
+D:\c\3-array\obj\Debug\net7.0\3-array.pdb
+D:\c\3-array\obj\Debug\net7.0\3-array.genruntimeconfig.cache
+D:\c\3-array\obj\Debug\net7.0\ref\3-array.dll

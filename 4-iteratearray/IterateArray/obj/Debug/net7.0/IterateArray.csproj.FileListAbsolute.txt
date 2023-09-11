@@ -1,0 +1,14 @@
+D:\c\4-iteratearray\IterateArray\bin\Debug\net7.0\IterateArray.exe
+D:\c\4-iteratearray\IterateArray\bin\Debug\net7.0\IterateArray.deps.json
+D:\c\4-iteratearray\IterateArray\bin\Debug\net7.0\IterateArray.runtimeconfig.json
+D:\c\4-iteratearray\IterateArray\bin\Debug\net7.0\IterateArray.dll
+D:\c\4-iteratearray\IterateArray\bin\Debug\net7.0\IterateArray.pdb
+D:\c\4-iteratearray\IterateArray\obj\Debug\net7.0\IterateArray.GeneratedMSBuildEditorConfig.editorconfig
+D:\c\4-iteratearray\IterateArray\obj\Debug\net7.0\IterateArray.AssemblyInfoInputs.cache
+D:\c\4-iteratearray\IterateArray\obj\Debug\net7.0\IterateArray.AssemblyInfo.cs
+D:\c\4-iteratearray\IterateArray\obj\Debug\net7.0\IterateArray.csproj.CoreCompileInputs.cache
+D:\c\4-iteratearray\IterateArray\obj\Debug\net7.0\IterateArray.dll
+D:\c\4-iteratearray\IterateArray\obj\Debug\net7.0\refint\IterateArray.dll
+D:\c\4-iteratearray\IterateArray\obj\Debug\net7.0\IterateArray.pdb
+D:\c\4-iteratearray\IterateArray\obj\Debug\net7.0\IterateArray.genruntimeconfig.cache
+D:\c\4-iteratearray\IterateArray\obj\Debug\net7.0\ref\IterateArray.dll
