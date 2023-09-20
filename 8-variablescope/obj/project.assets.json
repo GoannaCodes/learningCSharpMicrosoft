@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\c\\7-codeblocks\\TestProject\\TestProject.csproj",
-      "projectName": "TestProject",
-      "projectPath": "d:\\c\\7-codeblocks\\TestProject\\TestProject.csproj",
+      "projectUniqueName": "D:\\c\\8-variablescope\\8-variablescope.csproj",
+      "projectName": "8-variablescope",
+      "projectPath": "D:\\c\\8-variablescope\\8-variablescope.csproj",
       "packagesPath": "C:\\Users\\anguy\\.nuget\\packages\\",
-      "outputPath": "d:\\c\\7-codeblocks\\TestProject\\obj\\",
+      "outputPath": "D:\\c\\8-variablescope\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\anguy\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -1,0 +1,4 @@
+D:\c\8-variablescope\obj\Debug\net7.0\8-variablescope.GeneratedMSBuildEditorConfig.editorconfig
+D:\c\8-variablescope\obj\Debug\net7.0\8-variablescope.AssemblyInfoInputs.cache
+D:\c\8-variablescope\obj\Debug\net7.0\8-variablescope.AssemblyInfo.cs
+D:\c\8-variablescope\obj\Debug\net7.0\8-variablescope.csproj.CoreCompileInputs.cache
