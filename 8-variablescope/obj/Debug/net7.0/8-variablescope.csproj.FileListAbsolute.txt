@@ -2,3 +2,13 @@ D:\c\8-variablescope\obj\Debug\net7.0\8-variablescope.GeneratedMSBuildEditorConf
 D:\c\8-variablescope\obj\Debug\net7.0\8-variablescope.AssemblyInfoInputs.cache
 D:\c\8-variablescope\obj\Debug\net7.0\8-variablescope.AssemblyInfo.cs
 D:\c\8-variablescope\obj\Debug\net7.0\8-variablescope.csproj.CoreCompileInputs.cache
+D:\c\8-variablescope\bin\Debug\net7.0\8-variablescope.exe
+D:\c\8-variablescope\bin\Debug\net7.0\8-variablescope.deps.json
+D:\c\8-variablescope\bin\Debug\net7.0\8-variablescope.runtimeconfig.json
+D:\c\8-variablescope\bin\Debug\net7.0\8-variablescope.dll
+D:\c\8-variablescope\bin\Debug\net7.0\8-variablescope.pdb
+D:\c\8-variablescope\obj\Debug\net7.0\8-variablescope.dll
+D:\c\8-variablescope\obj\Debug\net7.0\refint\8-variablescope.dll
+D:\c\8-variablescope\obj\Debug\net7.0\8-variablescope.pdb
+D:\c\8-variablescope\obj\Debug\net7.0\8-variablescope.genruntimeconfig.cache
+D:\c\8-variablescope\obj\Debug\net7.0\ref\8-variablescope.dll
