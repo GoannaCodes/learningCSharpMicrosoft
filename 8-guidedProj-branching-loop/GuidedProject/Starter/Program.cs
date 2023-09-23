@@ -139,6 +139,47 @@ do
             }
 
             while (anotherPet == "y" && petCount < maxPets){
+                bool validEntry = false;
+                
+                //get species (cat or dog - string animalSpecies is a required field)
+                do {
+                    Console.WriteLine("\n\rEnter 'dog' or 'cat' to begin a new entry");
+                    readResult = Console.ReadLine();
+
+                    if (readResult != null){
+                        animalSpecies = readResult.ToLower();
+                        if (animalSpecies != "dog" && animalSpecies != "cat"){
+                            validEntry = false;
+                        }
+                        else {
+                            validEntry = true;
+                        }
+                    }
+                } while (validEntry == false);
+
+                //assign an animalID to the new animal - C1, D3 corresponds to Cat 1, Dog 3
+                animalID = animalSpecies.Substring(0, 1) + (petCount + 1).ToString();
+                
+                //get pet age. ? as initial entry
+                do{
+                    int petAge;
+                    Console.WriteLine("Enter pet's age or enter ? if unknown");
+                    readResult = Console.ReadLine();
+
+                    if (readResult != null){
+                        animalAge = readResult;
+
+                        //check if ? was entered before testing for valid integer
+                        if (animalAge != "?"){
+                            validEntry = int.TryParse(animalAge, out petAge);
+                        }
+                        else {
+                            validEntry = true;
+                        }
+                    }
+                } while (validEntry == false);
+
+                
                 //increment petCount
                 petCount = petCount + 1;
 
