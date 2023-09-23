@@ -102,7 +102,20 @@ do
     switch (menuSelection)
     {
         case "1":
-            Console.WriteLine("this app feature is coming soon - please check back to see progress.");
+            //List all current pet info
+            for(int i = 0; i < maxPets; i++)
+            {   
+                //check for existing pet data
+                if (ourAnimals[i, 0] != "ID #: ")
+                {
+                    Console.WriteLine();
+                    //iterate through pet characteristics
+                    for (int j=0; j < 6; j++)
+                    {
+                        Console.WriteLine(ourAnimals[i, j]);
+                    }
+                }
+            }
             Console.WriteLine("Press the Enter key to continue.");
             readResult = Console.ReadLine();
             break;
