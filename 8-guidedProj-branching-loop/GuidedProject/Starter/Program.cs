@@ -121,9 +121,45 @@ do
             break;
 
         case "2":
-            Console.WriteLine("this app feature is coming soon - please check back to see progress.");
-            Console.WriteLine("Press the Enter key to continue.");
-            readResult = Console.ReadLine();
+            //Add a new animal to ourAnimals array
+            string anotherPet = "y";
+            int petCount = 0;
+
+            //count how many pets are currently in array
+            for (int i = 0; i < maxPets; i++){
+                if (ourAnimals[i, 0] != "ID #: "){
+                    petCount += 1;
+                }
+
+            }
+
+            //output how many pets can still be added to array
+            if (petCount < maxPets){
+                Console.WriteLine($"We currently have {petCount} pets that need homes. We can manage {(maxPets - petCount)} more.");
+            }
+
+            while (anotherPet == "y" && petCount < maxPets){
+                //increment petCount
+                petCount = petCount + 1;
+
+                //check maxPet limit
+                if (petCount < maxPets){
+                    Console.WriteLine("Do you want to enter info for another pet? (y/n)");
+                    do {
+                        readResult = Console.ReadLine();
+                        if (readResult != null){
+                            anotherPet = readResult.ToLower();
+                        }
+                    } while (anotherPet != "y" && anotherPet != "n");
+                }
+            }
+
+            if (petCount >= maxPets){
+                Console.WriteLine("We have reached our limit on the number of pets we can manage.");
+                Console.WriteLine("Press the Enter key to continue.");
+                readResult = Console.ReadLine();
+            }
+            
             break;
 
         case "3":
