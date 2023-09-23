@@ -104,11 +104,13 @@ do
         case "1":
             Console.WriteLine("this app feature is coming soon - please check back to see progress.");
             Console.WriteLine("Press the Enter key to continue.");
+            readResult = Console.ReadLine();
             break;
 
         case "2":
             Console.WriteLine("this app feature is coming soon - please check back to see progress.");
             Console.WriteLine("Press the Enter key to continue.");
+            readResult = Console.ReadLine();
             break;
 
         case "3":
